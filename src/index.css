@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #1D3557;
   gap: 14px;
 }
 
@@ -59,7 +59,7 @@ header input {
   padding: 14px 18px;
   border: none;
   outline: none;
-  background: white;
+  background: #F4F1DE;
 }
 
 p {
@@ -72,24 +72,14 @@ p {
   gap: 14px;
 }
 
-/* .todoItem {
+.todoItem {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 14px;
   padding: 14px;
   border-radius: 14px;
-  background: white;
-} */
-.todoItem {
-  display: flex; /* Ensures child elements align in a row */
-  align-items: center; /* Vertically centers the content */
-  gap: 20px; /* Adds spacing between child elements */
-  padding: 14px; /* Adds padding inside the todo item */
-  border-radius: 14px; /* Rounds the corners */
-  background: white; /* Sets a white background */
-  margin-bottom: 20px; /* Adds spacing between `.todoItem` elements */
+  background: #FFFBF0;
 }
-
 
 .todoItem p {
   flex: 1;
